@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>Valorant Points Malaysia Region | ArektaCoinStore</title>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+        <link  href="styles/ItemviewPageStyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container header-content">
+                <div style="display: flex; align-items: center;">
+                    <div class="logo">ArektaCoinStore</div>
+                    <nav class="desktop-nav">
+                        <a href="#">Featured</a>
+                        <a href="#">PC Games</a>
+                        <a href="#">Mobile Games</a>
+                        <a href="#">Gift Cards</a>
+                    </nav>
+                </div>
+                <div class="header-actions">
+                    <button class="product-req-btn">Product Request</button>
+                    <span class="material-symbols-outlined icon-btn">shopping_cart</span>
+                    <span class="material-symbols-outlined icon-btn">notifications</span>
+                    <span class="material-symbols-outlined icon-btn">account_circle</span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="product-split">
+
+                <!-- Left Side -->
+                <div class="product-image-side">
+                    <img alt="Valorant Points Malaysia Region" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvjWOBhsNjVrwL41DlraHp4kPtE1HVHQ7Xjpn0SR3DIL5c1w0tOGEkkRbRxSWl8NKbawiq31d8ELkj5ZKJk4iGD6TrSTwSRbbSP4An_ichVG3VNJC2ptlUdc6sptnqaTJFXaRBY70ZmGIX6E5kiadAoQEW4oQrEl2Y2v0nEtvi0morP1PWl-vWX9lZPkHC0KkV88VszyK82hSgUVy5r6dYnReaEyu9o2isDShTWAOLsK__-nlqJDZ1genW6yZwyzQo6uWT_YeWHCY"/>
+                    <div class="image-overlay"></div>
+                    <div class="floating-info">
+                        <nav class="breadcrumb">
+                            <a href="#">Home</a>
+                            <span class="material-symbols-outlined" style="font-size: 14px">chevron_right</span>
+                            <span class="active">Malaysia Region</span>
+                        </nav>
+                        <div class="glass-card">
+                            <div class="sale-badge">On Sale</div>
+                            <h1 class="product-title">Valorant Points Malaysia Region</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="product-controls-side">
+                    <div class="info-box">
+                        <div class="info-title">
+                            <span class="material-symbols-outlined" style="font-size: 18px">priority_high</span>Important Ordering Info
+                        </div>
+                        <p class="info-text">Preorder status: Next day delivery guaranteed.</p>
+                        <div class="delivery-status">
+                            <span class="material-symbols-outlined fill-1" style="color: var(--tertiary-fixed-dim)">schedule</span>
+                            <p>Delivery Within <span class="highlight-text">6-12h</span> {10 AM - 1 AM}</p>
+                        </div>
+                    </div>
+                    <div class="section-header">
+                        <span class="accent-bar"></span>Select Amount
+                    </div>
+                    <div class="amount-grid">
+                        <button class="amount-btn active" onclick="updatePrice(550, this)">475 VP</button>
+                        <button class="amount-btn" onclick="updatePrice(1150, this)">1000 VP</button>
+                        <button class="amount-btn" onclick="updatePrice(1650, this)">1475 VP</button>
+                        <button class="amount-btn" onclick="updatePrice(2200, this)">2050 VP</button>
+                        <button class="amount-btn" onclick="updatePrice(2750, this)">2525 VP</button>
+                        <button class="amount-btn" onclick="updatePrice(3300, this)">3050 VP</button>
+                        <button class="amount-btn" onclick="updatePrice(4100, this)">3650 VP</button>
+                        <button class="amount-btn" onclick="updatePrice(4900, this)">4125 VP</button>
+                        <button class="amount-btn" onclick="updatePrice(12900, this)">11000 VP</button>
+                    </div>
+                    <div class="input-group">
+                        <div class="section-header">
+                            <span class="accent-bar"></span>IGN#TAG
+                        </div>
+                        <input class="text-input" placeholder="Enter Your Game ID (e.g., Player#1234)" type="text"/>
+                    </div>
+                    <div class="pricing-bar">
+                        <div>
+                            <p class="price-label">Estimated Total</p>
+                            <p class="price-value" id="total-price">550 BDT</p>
+                        </div>
+                        <div class="qty-selector">
+                            <button class="qty-btn" onclick="adjustQty(-1)"><span class="material-symbols-outlined">remove</span></button>
+                            <input class="qty-input" id="qty" readonly="" type="text" value="1"/>
+                            <button class="qty-btn" onclick="adjustQty(1)"><span class="material-symbols-outlined">add</span></button>
+                        </div>
+                    </div>
+                    <div class="cta-group">
+                        <button class="btn btn-outline">
+                            <span class="material-symbols-outlined">shopping_cart_checkout</span>Add to Cart
+                        </button>
+                        <button class="btn btn-primary">
+                            <span class="material-symbols-outlined fill-1">bolt</span>Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <section class="description-section">
+                    <div class="description-card">
+                        <h2 class="desc-title">
+                            <span class="material-symbols-outlined">description</span>Product Description
+                        </h2>
+                        <p class="desc-text">Enhance your Valorant experience with Valorant Points (VP). Use VP to purchase the latest weapon skins from the store, unlock new agents instantly, and upgrade your battle pass to earn exclusive seasonal rewards. This product is specifically for accounts in the Malaysia region.</p>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <span class="material-symbols-outlined feature-icon">flash_on</span>
+                                <h4 class="feature-name">Instant Unlock</h4>
+                                <p class="feature-desc">Fast and secure delivery via player ID directly to your account.</p>
+                            </div>
+                            <div class="feature-item">
+                                <span class="material-symbols-outlined feature-icon">verified_user</span>
+                                <h4 class="feature-name">Official Market</h4>
+                                <p class="feature-desc">Authorized digital assets marketplace for guaranteed safety.</p>
+                            </div>
+                            <div class="feature-item">
+                                <span class="material-symbols-outlined feature-icon">support_agent</span>
+                                <h4 class="feature-name">24/7 Support</h4>
+                                <p class="feature-desc">Dedicated customer assistance for all transaction queries.</p>
+                            </div>
+                        </div>
+                        <a class="guide-link" href="#">Read comprehensive guides 
+                            <span class="material-symbols-outlined" style="font-size: 18px">keyboard_arrow_down</span>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="container footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">ArektaCoinStore</div>
+                    <p>Your ultimate gateway for gaming assets, currencies, and digital gift cards. Secure, fast, and reliable.</p>
+                    <p class="copyright">© 2024 ArektaCoinStore. All rights reserved. Gaming assets marketplace.</p>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Order History</a></li>
+                        <li><a href="#">Review Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bottom Navigation (Mobile/Tablet Only) -->
+        <nav class="bottom-nav">
+            <a class="bottom-nav-item active" href="#">
+                <span class="material-symbols-outlined">home</span>
+                <span>Home</span>
+            </a>
+            <a class="bottom-nav-item" href="#">
+                <span class="material-symbols-outlined">storefront</span>
+                <span>Marketplace</span>
+            </a>
+            <a class="bottom-nav-item" href="#">
+                <span class="material-symbols-outlined">search</span>
+                <span>Search</span>
+            </a>
+            <a class="bottom-nav-item" href="#">
+                <span class="material-symbols-outlined">person</span>
+                <span>Account</span>
+            </a>
+        </nav>
+        
+        <script src="./Scripts/ItemViewPageScript.js"></script>
+    </body>
+</html>
